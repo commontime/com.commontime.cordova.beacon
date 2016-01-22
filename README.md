@@ -25,4 +25,6 @@ https://github.com/petermetz/cordova-plugin-ibeacon.git
 
 It's primary purpose is to fix background monitoring in iOS 9.1 (and above) and Android Marshmallow.
 
-All unaltered code is from the original repository.
+### License
+
+MIT
