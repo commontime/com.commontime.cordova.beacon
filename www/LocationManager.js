@@ -18,15 +18,15 @@
  */
 
 var exec = require('cordova/exec');
-var _ = require('com.unarin.cordova.beacon.underscorejs');
-var Q = require('com.unarin.cordova.beacon.Q');
+var _ = require('com.commontime.cordova.beacon.underscorejs');
+var Q = require('com.commontime.cordova.beacon.Q');
 
-var Regions = require('com.unarin.cordova.beacon.Regions');
-var Delegate = require('com.unarin.cordova.beacon.Delegate');
+var Regions = require('com.commontime.cordova.beacon.Regions');
+var Delegate = require('com.commontime.cordova.beacon.Delegate');
 
-var Region = require('com.unarin.cordova.beacon.Region');
-var CircularRegion = require('com.unarin.cordova.beacon.CircularRegion');
-var BeaconRegion = require('com.unarin.cordova.beacon.BeaconRegion');
+var Region = require('com.commontime.cordova.beacon.Region');
+var CircularRegion = require('com.commontime.cordova.beacon.CircularRegion');
+var BeaconRegion = require('com.commontime.cordova.beacon.BeaconRegion');
 
 /**
  * Creates an instance of the plugin.
