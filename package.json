@@ -1,0 +1,30 @@
+{
+  "name": "com.commontime.cordova.beacon",
+  "version": "0.0.1",
+  "description": "Commontime cordova beacon plugin.",
+  "cordova": {
+    "id": "com.commontime.cordova.beacon",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commontime/com.commontime.cordova.beacon.git"
+  },
+  "keywords": [
+    "cordova",
+    "beacon",
+    "ibeacon",
+    "commontime"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Commontime Ltd",
+  "license": "MIT"
+}
