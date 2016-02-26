@@ -24,7 +24,3 @@ This is a fork of the iBeacon plugin by pertermetz located at:
 https://github.com/petermetz/cordova-plugin-ibeacon.git
 
 It's primary purpose is to fix background monitoring in iOS 9.1 (and above) and Android Marshmallow.
-
-### License
-
-MIT
