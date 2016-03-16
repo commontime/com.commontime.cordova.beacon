@@ -1,6 +1,6 @@
 {
   "name": "com.commontime.cordova.beacon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Commontime cordova beacon plugin.",
   "cordova": {
     "id": "com.commontime.cordova.beacon",
