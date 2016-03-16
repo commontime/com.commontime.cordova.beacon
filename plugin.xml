@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.commontime.cordova.beacon" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.commontime.cordova.beacon" version="1.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>Proximity Beacon Plugin</name>
     <description>Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)</description>
@@ -61,9 +61,10 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">                  
-        <array>
+         <array>
           <string>location</string>
-        </array>         
+         </array>
+        </config-file>         
 
         <header-file src="src/ios/CDVLocationManager.h"/>
         <source-file src="src/ios/CDVLocationManager.m"/>
